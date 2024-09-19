@@ -12,17 +12,26 @@
 - (case poetry) pip install poetry 
 - poetry init 
 - add below the [tool.poetry] > package-mode = false
-- poetry add <package-name>@<version><latest>
-- conda create -n <enviroment-name> python=<version> -y
-- conda activate <enviroment-name>
+- poetry add <package_name>@<version><latest>
+- conda create -n <enviroment_name> python=<version> -y
+- conda activate <enviroment_name>
 - (case pip) pip install -r requirements.txt
 
 4. Logging, Utils & Exception Module
 - logger at src/`__init__.py`
 - exceptions at utils/common.py
 
-
 5. Workflow
+- update config.yaml
+- update secrets.yaml [optional]
+- update params.yaml
+- update entity
+- update src/config/configuration.py
+- update components
+- update pipeline
+- update main.py
+- update dvc.yaml
+- build app.py [lastest]
 
 6. Notebook Experiments
 
