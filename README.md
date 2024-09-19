@@ -18,6 +18,9 @@
 - (case pip) pip install -r requirements.txt
 
 4. Logging, Utils & Exception Module
+- logger at src/`__init__.py`
+- exceptions at utils/common.py
+
 
 5. Workflow
 
