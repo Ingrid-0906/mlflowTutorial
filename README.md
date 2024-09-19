@@ -1,4 +1,4 @@
-# End-to-end perfect pipeline project using DVC, MLFlow, AWS
+# End-to-end perfect pipeline project using DVC, MLFlow, AWS, Databricks
 
 1. Into & Github setup
 - git clone <repo_link>
@@ -8,7 +8,14 @@
 - script <template.py>
 - run __python template.py__
 
-3. Setup & Requirements
+3. Setup & Requirements (poetry) & (pip)
+- (case poetry) pip install poetry 
+- poetry init 
+- add below the [tool.poetry] > package-mode = false
+- poetry add <package-name>@<version><latest>
+- conda create -n <enviroment-name> python=<version> -y
+- conda activate <enviroment-name>
+- (case pip) pip install -r requirements.txt
 
 4. Logging, Utils & Exception Module
 
